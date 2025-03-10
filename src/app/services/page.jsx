@@ -42,7 +42,9 @@ const ServicesPages = () => {
         return (
           <div>
             <Link href={`/services/${d.id}`}>
-              <img className="h-20 " src={d.img} alt="" />
+             
+                <img className="h-20 py-5" src={d.img} alt="" />
+            
             </Link>
           </div>
         );
